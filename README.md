@@ -6,17 +6,17 @@ It delivers an hourly time-series of energy demand for a given location, for you
 
 
 ## Setup
-`Demand.ninja` requires R version 3+, with the `lubridate` library.
+Demand.ninja requires R version 3+, with the `lubridate` library.
 
 Download the files from this repository and you are ready to go. The calculation code lives inside `demand_ninja.r`. An example of how to use this code is inside `example_1.r`.  In that file, you just need to change the path to say where you have downloaded all the files.
 
 
 ## Credits and contact
-Contact Iain Staffell if you have questions about `Demand.ninja`.  `Demand.ninja` is a component of the [Renewables.ninja](https://renewables.ninja) project, developed by Stefan Pfenninger and Iain Staffell.
+Contact [Iain Staffell](i.staffell@imperial.ac.uk) and [Nathan Johnson](nathan.johnson17@imperial.ac.uk) if you have questions about Demand.ninja.  Demand.ninja is a component of the [Renewables.ninja](https://renewables.ninja) project, developed by Stefan Pfenninger and Iain Staffell.
 
 
 ## Citation
-If you use `Demand.ninja` or code derived from it in academic work, please cite:
+If you use Demand.ninja or code derived from it in academic work, please cite:
 
 Iain Staffell, Stefan Pfenninger and Nathan Johnson (2023). _A global model of hourly space heating and cooling demand at multiple spatial scales._ Nature Energy.
 
