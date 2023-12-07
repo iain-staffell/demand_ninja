@@ -210,7 +210,8 @@
 		
 		# if it's humid, both hot and cold feel more extreme
 		discomfort = (N - setpoint_T)
-		N = setpoint_T + discomfort + (discomfort * (weather$H - setpoint_H) * bait$humidity)
+	    	# convert humidity from kg/kg to g/kg
+		N = setpoint_T + discomfort + (discomfort * (weather$H*1000 - setpoint_H) * bait$humidity)
 
 
 
