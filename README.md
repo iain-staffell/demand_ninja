@@ -1,6 +1,6 @@
 # The Demand.ninja model
 
-This code performs the 'core' calculations of the [Demand.ninja](http://www.demand.ninja) model.
+This code performs the 'core' calculations of the [Demand.ninja](http://www.demand.ninja) model, which is described in [this Nature Energy paper](https://doi.org/10.1038/s41560-023-01341-5).
 
 It delivers an hourly time-series of energy demand for a given location, for your chosen temperaure thresholds and BAIT (building-adjusted internal temperature) parameters which describe the characteristics of a building and its occupants. The main function `demand_ninja` uses weather data from the www.renewables.ninja website for a desired location, processes this into the BAIT temperature index and then finally calculates energy demand.
 
@@ -18,7 +18,7 @@ Contact [Iain Staffell](i.staffell@imperial.ac.uk) and [Nathan Johnson](nathan.j
 ## Citation
 If you use Demand.ninja or code derived from it in academic work, please cite:
 
-Iain Staffell, Stefan Pfenninger and Nathan Johnson (2023). _A global model of hourly space heating and cooling demand at multiple spatial scales._ Nature Energy.
+Iain Staffell, Stefan Pfenninger and Nathan Johnson (2023). [_A global model of hourly space heating and cooling demand at multiple spatial scales._](https://doi.org/10.1038/s41560-023-01341-5) Nature Energy, 8, 1328–1344.
 
 
 ## License
