@@ -1,6 +1,6 @@
 # The Demand.ninja model
 
-This code performs the 'core' calculations of the [Demand.ninja](https://demand.ninja) model.
+This code performs the 'core' calculations of the [Demand.ninja](http://www.demand.ninja) model.
 
 It delivers an hourly time-series of energy demand for a given location, for your chosen temperaure thresholds and BAIT (building-adjusted internal temperature) parameters which describe the characteristics of a building and its occupants. The main function `demand_ninja` uses weather data from the www.renewables.ninja website for a desired location, processes this into the BAIT temperature index and then finally calculates energy demand.
 
